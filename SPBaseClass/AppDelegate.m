@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SPBaseTabBarController.h"
+#import "SPBaseNavigationController.h"
+#import "SPBaseVC.h"
+#import "AVC.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +21,51 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    self.window.rootViewController =[self addTabBarController];
+    
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
+-(UITabBarController*)addTabBarController
+{
+    SPBaseTabBarController *tab = [[SPBaseTabBarController alloc] init_didSelectViewControllerBlock:^(UITabBarController *tabBarViewcontroller, UIViewController *viewcontroller) {
+        NSLog(@"选中后处理%lu",(unsigned long)tabBarViewcontroller.selectedIndex);
+        viewcontroller.tabBarItem.badgeValue = nil;
+    }];
+    
+    [tab addItemController:[AVC new]
+          tabBarItem_title:@"微信"
+          tabBarItem_image:nil
+  tabBarItem_selectedImage:nil
+     tabBarItem_badgeValue:@"推荐"];
+    
+    [tab addItemController:[SPBaseVC new]
+          tabBarItem_title:@"通讯录"
+          tabBarItem_image:nil
+  tabBarItem_selectedImage:nil];
+    
+    [tab addItemController:[SPBaseVC new]
+          tabBarItem_title:@"发现"
+     tabBarItem_titleFont:[UIFont systemFontOfSize:16]
+tabBarItem_titleunselectColor:[UIColor redColor]
+tabBarItem_titleselectColor:[UIColor greenColor]
+          tabBarItem_image:nil
+  tabBarItem_selectedImage:nil
+     tabBarItem_badgeValue:nil
+         ];
+    
+    [tab addItemController:[SPBaseVC new]
+          tabBarItem_title:@"我的"
+          tabBarItem_image:nil
+  tabBarItem_selectedImage:nil];
+    
+    return tab;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

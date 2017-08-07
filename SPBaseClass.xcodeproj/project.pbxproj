@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E192101F1F346E4F009555DB /* SPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E192101E1F346E4F009555DB /* SPBaseNavigationController.m */; };
+		E1C92E481F347F320090BDBB /* SPBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */; };
+		E1C92E4B1F381F3F0090BDBB /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E4A1F381F3F0090BDBB /* AVC.m */; };
+		E1C92E4E1F381F510090BDBB /* BVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E4D1F381F510090BDBB /* BVC.m */; };
+		E1C92E511F3821080090BDBB /* CVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E501F3821080090BDBB /* CVC.m */; };
 		E1D287E31F308B7F0000AC39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D287E21F308B7F0000AC39 /* main.m */; };
 		E1D287E61F308B7F0000AC39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D287E51F308B7F0000AC39 /* AppDelegate.m */; };
 		E1D287E91F308B7F0000AC39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D287E81F308B7F0000AC39 /* ViewController.m */; };
 		E1D287EC1F308B7F0000AC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D287EA1F308B7F0000AC39 /* Main.storyboard */; };
 		E1D287EE1F308B7F0000AC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D287ED1F308B7F0000AC39 /* Assets.xcassets */; };
 		E1D287F11F308B7F0000AC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D287EF1F308B7F0000AC39 /* LaunchScreen.storyboard */; };
+		E1D287FB1F308DA40000AC39 /* SPBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D287FA1F308DA40000AC39 /* SPBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E192101D1F346E4F009555DB /* SPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseNavigationController.h; sourceTree = "<group>"; };
+		E192101E1F346E4F009555DB /* SPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseNavigationController.m; sourceTree = "<group>"; };
+		E1C92E461F347F320090BDBB /* SPBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseTabBarController.h; sourceTree = "<group>"; };
+		E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseTabBarController.m; sourceTree = "<group>"; };
+		E1C92E491F381F3F0090BDBB /* AVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVC.h; sourceTree = "<group>"; };
+		E1C92E4A1F381F3F0090BDBB /* AVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVC.m; sourceTree = "<group>"; };
+		E1C92E4C1F381F510090BDBB /* BVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVC.h; sourceTree = "<group>"; };
+		E1C92E4D1F381F510090BDBB /* BVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVC.m; sourceTree = "<group>"; };
+		E1C92E4F1F3821080090BDBB /* CVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVC.h; sourceTree = "<group>"; };
+		E1C92E501F3821080090BDBB /* CVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVC.m; sourceTree = "<group>"; };
 		E1D287DE1F308B7F0000AC39 /* SPBaseClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPBaseClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D287E21F308B7F0000AC39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1D287E41F308B7F0000AC39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,8 @@
 		E1D287ED1F308B7F0000AC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D287F01F308B7F0000AC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D287F21F308B7F0000AC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D287F91F308DA40000AC39 /* SPBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseVC.h; sourceTree = "<group>"; };
+		E1D287FA1F308DA40000AC39 /* SPBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,17 @@
 		E1D287E01F308B7F0000AC39 /* SPBaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				E1D287F81F308D630000AC39 /* SPBaseClass */,
 				E1D287E41F308B7F0000AC39 /* AppDelegate.h */,
 				E1D287E51F308B7F0000AC39 /* AppDelegate.m */,
 				E1D287E71F308B7F0000AC39 /* ViewController.h */,
 				E1D287E81F308B7F0000AC39 /* ViewController.m */,
+				E1C92E491F381F3F0090BDBB /* AVC.h */,
+				E1C92E4A1F381F3F0090BDBB /* AVC.m */,
+				E1C92E4C1F381F510090BDBB /* BVC.h */,
+				E1C92E4D1F381F510090BDBB /* BVC.m */,
+				E1C92E4F1F3821080090BDBB /* CVC.h */,
+				E1C92E501F3821080090BDBB /* CVC.m */,
 				E1D287EA1F308B7F0000AC39 /* Main.storyboard */,
 				E1D287ED1F308B7F0000AC39 /* Assets.xcassets */,
 				E1D287EF1F308B7F0000AC39 /* LaunchScreen.storyboard */,
@@ -77,6 +102,19 @@
 				E1D287E21F308B7F0000AC39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1D287F81F308D630000AC39 /* SPBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E1D287F91F308DA40000AC39 /* SPBaseVC.h */,
+				E1D287FA1F308DA40000AC39 /* SPBaseVC.m */,
+				E192101D1F346E4F009555DB /* SPBaseNavigationController.h */,
+				E192101E1F346E4F009555DB /* SPBaseNavigationController.m */,
+				E1C92E461F347F320090BDBB /* SPBaseTabBarController.h */,
+				E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */,
+			);
+			path = SPBaseClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +189,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C92E511F3821080090BDBB /* CVC.m in Sources */,
+				E1D287FB1F308DA40000AC39 /* SPBaseVC.m in Sources */,
+				E192101F1F346E4F009555DB /* SPBaseNavigationController.m in Sources */,
+				E1C92E4B1F381F3F0090BDBB /* AVC.m in Sources */,
+				E1C92E4E1F381F510090BDBB /* BVC.m in Sources */,
 				E1D287E91F308B7F0000AC39 /* ViewController.m in Sources */,
 				E1D287E61F308B7F0000AC39 /* AppDelegate.m in Sources */,
 				E1D287E31F308B7F0000AC39 /* main.m in Sources */,
+				E1C92E481F347F320090BDBB /* SPBaseTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +358,7 @@
 				E1D287F71F308B7F0000AC39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
