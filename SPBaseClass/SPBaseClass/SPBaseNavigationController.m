@@ -35,10 +35,10 @@
 {
     //如果topViewController是我们的基类SPBaseVC及SPBaseVC的子类，控制是否右滑返回
     if ([self.topViewController isKindOfClass:[SPBaseVC class]] &&
-        [self.topViewController respondsToSelector:@selector(gestureRecognizerShouldBegin)]) {
+        [self.topViewController respondsToSelector:@selector(gestureRecognizerShouldBegin:)]) {
         
         SPBaseVC *vc = (SPBaseVC *)self.topViewController;
-        return [vc gestureRecognizerShouldBegin];
+        return [vc gestureRecognizerShouldBegin:gestureRecognizer];
     }
     //如果topViewController不是我们的基类默认开启右滑返回
     return YES;

@@ -26,6 +26,6 @@
 //2.继承该父类的子类VC里面如果重写了该方法，设置为NO，则表示不支持右滑返回
 //3.该方法配合SPBaseNavigationController使用，原理请看两个类的结合
 //4.如果想获得右滑手势，请在重写方法里面操作
-- (BOOL)gestureRecognizerShouldBegin;
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer;
 
 @end

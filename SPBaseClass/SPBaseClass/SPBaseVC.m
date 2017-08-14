@@ -85,7 +85,7 @@
     objc_removeAssociatedObjects(self);
 }
 
-- (BOOL)gestureRecognizerShouldBegin
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
     return YES;
 }

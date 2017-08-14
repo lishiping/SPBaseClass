@@ -19,7 +19,8 @@
     // Do any additional setup after loading the view.
 }
 
--(BOOL)gestureRecognizerShouldBegin
+//不想让当前VC使用右滑返回手势，所以重写了下面的方法
+-(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
     return NO;
 }

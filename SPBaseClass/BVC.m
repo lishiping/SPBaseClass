@@ -36,7 +36,7 @@
     [self.navigationController pushViewController:cvc animated:YES];
 }
 
--(BOOL)gestureRecognizerShouldBegin
+-(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
     return YES;
 }
