@@ -31,6 +31,7 @@
     self.interactivePopGestureRecognizer.delegate = self;
 }
 
+//控制右滑手势返回上一页的方法
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
     //如果topViewController是我们的基类SPBaseVC及SPBaseVC的子类，控制是否右滑返回

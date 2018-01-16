@@ -22,12 +22,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
     self.window.rootViewController =[self addTabBarController];
     
     [self.window makeKeyAndVisible];
-
+    
     return YES;
 }
 
@@ -51,13 +51,13 @@
     
     [tab addItemController:[SPBaseVC new]
           tabBarItem_title:@"发现"
-     tabBarItem_titleFont:[UIFont systemFontOfSize:16]
-tabBarItem_titleunselectColor:[UIColor redColor]
+      tabBarItem_titleFont:[UIFont systemFontOfSize:14]
+tabBarItem_titleunselectColor:[UIColor grayColor]
 tabBarItem_titleselectColor:[UIColor greenColor]
           tabBarItem_image:nil
   tabBarItem_selectedImage:nil
      tabBarItem_badgeValue:nil
-         ];
+     ];
     
     [tab addItemController:[SPBaseVC new]
           tabBarItem_title:@"我的"
