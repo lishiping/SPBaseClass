@@ -32,6 +32,7 @@
     self.interactivePopGestureRecognizer.delegate = self;
 }
 
+//控制右滑手势返回上一页的方法
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
     //因为这个右滑手势是针对于NavigationController的功能，故我们这里在NavigationController实现
