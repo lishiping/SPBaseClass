@@ -22,12 +22,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
     self.window.rootViewController =[self addTabBarController];
     
     [self.window makeKeyAndVisible];
-
+    
     return YES;
 }
 
@@ -40,29 +40,39 @@
     
     [tab addItemController:[AVC new]
           tabBarItem_title:@"微信"
+      tabBarItem_titleFont:[UIFont systemFontOfSize:14]
+tabBarItem_normalTitleColor:[UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1]
+tabBarItem_selectTitleColor:[UIColor colorWithRed:31/255.0 green:185/255.0 blue:37/255.0 alpha:1]
           tabBarItem_image:nil
   tabBarItem_selectedImage:nil
-     tabBarItem_badgeValue:@"推荐"];
+     tabBarItem_badgeValue:@"20"];
     
     [tab addItemController:[SPBaseVC new]
           tabBarItem_title:@"通讯录"
+      tabBarItem_titleFont:[UIFont systemFontOfSize:14]
+tabBarItem_normalTitleColor:[UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1]
+tabBarItem_selectTitleColor:[UIColor colorWithRed:31/255.0 green:185/255.0 blue:37/255.0 alpha:1]
           tabBarItem_image:nil
-  tabBarItem_selectedImage:nil];
+  tabBarItem_selectedImage:nil
+     tabBarItem_badgeValue:nil];
     
     [tab addItemController:[SPBaseVC new]
           tabBarItem_title:@"发现"
-     tabBarItem_titleFont:[UIFont systemFontOfSize:16]
-tabBarItem_titleunselectColor:[UIColor redColor]
-tabBarItem_titleselectColor:[UIColor greenColor]
+      tabBarItem_titleFont:[UIFont systemFontOfSize:14]
+tabBarItem_normalTitleColor:[UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1]
+tabBarItem_selectTitleColor:[UIColor colorWithRed:31/255.0 green:185/255.0 blue:37/255.0 alpha:1]
           tabBarItem_image:nil
   tabBarItem_selectedImage:nil
-     tabBarItem_badgeValue:nil
-         ];
+     tabBarItem_badgeValue:nil];
     
     [tab addItemController:[SPBaseVC new]
           tabBarItem_title:@"我的"
+      tabBarItem_titleFont:[UIFont systemFontOfSize:14]
+tabBarItem_normalTitleColor:[UIColor colorWithRed:164/255.0 green:164/255.0 blue:164/255.0 alpha:1]
+tabBarItem_selectTitleColor:[UIColor colorWithRed:31/255.0 green:185/255.0 blue:37/255.0 alpha:1]
           tabBarItem_image:nil
-  tabBarItem_selectedImage:nil];
+  tabBarItem_selectedImage:nil
+     tabBarItem_badgeValue:nil];
     
     return tab;
 }
