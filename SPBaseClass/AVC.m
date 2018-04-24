@@ -29,6 +29,7 @@
 
     button.frame = CGRectMake(150, 150, 100, 50);
     [self.view addSubview:button];
+    
 }
 
 -(void)pushnext

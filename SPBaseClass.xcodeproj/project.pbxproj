@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E94824E208F608100B5F82C /* SPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E94824C208F608000B5F82C /* SPHUD.m */; };
+		1EA752FC2084889E005E612C /* SPAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752FB2084889E005E612C /* SPAlert.m */; };
+		3A1F115F96B5A72DAB05F31B /* libPods-SPBaseClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF1D968C3372D9EFDCD5AC7 /* libPods-SPBaseClass.a */; };
 		E192101F1F346E4F009555DB /* SPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E192101E1F346E4F009555DB /* SPBaseNavigationController.m */; };
 		E1C92E481F347F320090BDBB /* SPBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */; };
 		E1C92E4B1F381F3F0090BDBB /* AVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E4A1F381F3F0090BDBB /* AVC.m */; };
@@ -22,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BC7A97695C3CF7494976D9B /* Pods-SPBaseClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBaseClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass.debug.xcconfig"; sourceTree = "<group>"; };
+		1E94824C208F608000B5F82C /* SPHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHUD.m; sourceTree = "<group>"; };
+		1E94824D208F608100B5F82C /* SPHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHUD.h; sourceTree = "<group>"; };
+		1E94824F208F63B300B5F82C /* SPBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBaseClass.h; sourceTree = "<group>"; };
+		1EA752FA2084889E005E612C /* SPAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlert.h; sourceTree = "<group>"; };
+		1EA752FB2084889E005E612C /* SPAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlert.m; sourceTree = "<group>"; };
+		1EA752FE2084893E005E612C /* SPBlockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBlockDefine.h; sourceTree = "<group>"; };
+		8E3053870D19FD1D8B2CF09B /* Pods-SPBaseClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBaseClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass.release.xcconfig"; sourceTree = "<group>"; };
 		E192101D1F346E4F009555DB /* SPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseNavigationController.h; sourceTree = "<group>"; };
 		E192101E1F346E4F009555DB /* SPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseNavigationController.m; sourceTree = "<group>"; };
 		E1C92E461F347F320090BDBB /* SPBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseTabBarController.h; sourceTree = "<group>"; };
@@ -44,6 +55,7 @@
 		E1D287F21F308B7F0000AC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1D287F91F308DA40000AC39 /* SPBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseVC.h; sourceTree = "<group>"; };
 		E1D287FA1F308DA40000AC39 /* SPBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseVC.m; sourceTree = "<group>"; };
+		FCF1D968C3372D9EFDCD5AC7 /* libPods-SPBaseClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPBaseClass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1F115F96B5A72DAB05F31B /* libPods-SPBaseClass.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA752F846771B391446243FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BC7A97695C3CF7494976D9B /* Pods-SPBaseClass.debug.xcconfig */,
+				8E3053870D19FD1D8B2CF09B /* Pods-SPBaseClass.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD84882C342C9AE2C4616817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF1D968C3372D9EFDCD5AC7 /* libPods-SPBaseClass.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1D287D51F308B7F0000AC39 = {
 			isa = PBXGroup;
 			children = (
 				E1D287E01F308B7F0000AC39 /* SPBaseClass */,
 				E1D287DF1F308B7F0000AC39 /* Products */,
+				BA752F846771B391446243FF /* Pods */,
+				CD84882C342C9AE2C4616817 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,12 +139,18 @@
 		E1D287F81F308D630000AC39 /* SPBaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				1EA752FE2084893E005E612C /* SPBlockDefine.h */,
+				1EA752FA2084889E005E612C /* SPAlert.h */,
+				1EA752FB2084889E005E612C /* SPAlert.m */,
+				1E94824D208F608100B5F82C /* SPHUD.h */,
+				1E94824C208F608000B5F82C /* SPHUD.m */,
 				E1D287F91F308DA40000AC39 /* SPBaseVC.h */,
 				E1D287FA1F308DA40000AC39 /* SPBaseVC.m */,
 				E192101D1F346E4F009555DB /* SPBaseNavigationController.h */,
 				E192101E1F346E4F009555DB /* SPBaseNavigationController.m */,
 				E1C92E461F347F320090BDBB /* SPBaseTabBarController.h */,
 				E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */,
+				1E94824F208F63B300B5F82C /* SPBaseClass.h */,
 			);
 			path = SPBaseClass;
 			sourceTree = "<group>";
@@ -124,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1D287F51F308B7F0000AC39 /* Build configuration list for PBXNativeTarget "SPBaseClass" */;
 			buildPhases = (
+				B16E8B8F7AD6D9D7B17896F3 /* [CP] Check Pods Manifest.lock */,
 				E1D287DA1F308B7F0000AC39 /* Sources */,
 				E1D287DB1F308B7F0000AC39 /* Frameworks */,
 				E1D287DC1F308B7F0000AC39 /* Resources */,
+				C2DBE256EE86C6F9F37340A6 /* [CP] Embed Pods Frameworks */,
+				9D3271A82B404C9B7B66DEAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +225,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D3271A82B404C9B7B66DEAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16E8B8F7AD6D9D7B17896F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DBE256EE86C6F9F37340A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1D287DA1F308B7F0000AC39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -196,8 +285,10 @@
 				E1C92E4E1F381F510090BDBB /* BVC.m in Sources */,
 				E1D287E91F308B7F0000AC39 /* ViewController.m in Sources */,
 				E1D287E61F308B7F0000AC39 /* AppDelegate.m in Sources */,
+				1E94824E208F608100B5F82C /* SPHUD.m in Sources */,
 				E1D287E31F308B7F0000AC39 /* main.m in Sources */,
 				E1C92E481F347F320090BDBB /* SPBaseTabBarController.m in Sources */,
+				1EA752FC2084889E005E612C /* SPAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +408,7 @@
 		};
 		E1D287F61F308B7F0000AC39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC7A97695C3CF7494976D9B /* Pods-SPBaseClass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59R6D7WJ6M;
@@ -330,6 +422,7 @@
 		};
 		E1D287F71F308B7F0000AC39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3053870D19FD1D8B2CF09B /* Pods-SPBaseClass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59R6D7WJ6M;

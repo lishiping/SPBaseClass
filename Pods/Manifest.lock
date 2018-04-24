@@ -1,0 +1,25 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - SafeData (0.1.2)
+  - SPCategory (0.4.1):
+    - MBProgressHUD (= 1.0.0)
+    - SafeData
+    - SPMacro
+  - SPFastPush (0.8.0)
+  - SPMacro (0.3.1)
+
+DEPENDENCIES:
+  - SafeData
+  - SPCategory
+  - SPFastPush
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SafeData: d654eee95046a2c25ab67dec883977bb6699a83a
+  SPCategory: fab67c388d3fb632cc97b11532f32c0f3492e56c
+  SPFastPush: 732746c2a1b333acfda6500c2d1293f0abd14207
+  SPMacro: 6ad947b6dd58cdf33a2f9238d081df6de6178efe
+
+PODFILE CHECKSUM: 30eb3c4bcf2596ade47026c899284aabc8174b43
+
+COCOAPODS: 1.1.1
