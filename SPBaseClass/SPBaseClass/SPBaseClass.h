@@ -9,9 +9,12 @@
 #ifndef SPBaseClass_h
 #define SPBaseClass_h
 
-#import <SPMacro.h>
-#import <SPFastPush.h>
-#import <SPSafeData.h>
+
+#endif /* SPBaseClass_h */
+
+#import <SPMacro/SPMacro.h>
+#import <SPFastPush/SPFastPush.h>
+#import <SPSafeData/SPSafeData.h>
 
 #import "SPBlockDefine.h"
 #import "SPBaseVC.h"
@@ -19,8 +22,4 @@
 #import "SPBaseTabBarController.h"
 #import "SPAlert.h"
 #import "SPHUD.h"
-
-#endif /* SPBaseClass_h */
-
-
 

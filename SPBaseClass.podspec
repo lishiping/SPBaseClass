@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SPBaseClass"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Some architecture base class.一些架构上的基类，方便开发者加入项目."
   s.homepage     = "https://github.com/lishiping/SPBaseClass.git"
   s.license      = "LICENSE"
