@@ -24,10 +24,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    SPBaseNavigationController *nav = [[SPBaseNavigationController alloc] initWithRootViewController:[AVC new]];
-//    self.window.rootViewController =[self addTabBarController];
+//    SPBaseNavigationController *nav = [[SPBaseNavigationController alloc] initWithRootViewController:[AVC new]];
+    //    self.window.rootViewController = nav;
+    self.window.rootViewController =[self addTabBarController];
     
-    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
     return YES;
