@@ -139,6 +139,7 @@
 		E1D287F81F308D630000AC39 /* SPBaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				1E94824F208F63B300B5F82C /* SPBaseClass.h */,
 				1EA752FE2084893E005E612C /* SPBlockDefine.h */,
 				1EA752FA2084889E005E612C /* SPAlert.h */,
 				1EA752FB2084889E005E612C /* SPAlert.m */,
@@ -150,7 +151,6 @@
 				E192101E1F346E4F009555DB /* SPBaseNavigationController.m */,
 				E1C92E461F347F320090BDBB /* SPBaseTabBarController.h */,
 				E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */,
-				1E94824F208F63B300B5F82C /* SPBaseClass.h */,
 			);
 			path = SPBaseClass;
 			sourceTree = "<group>";

@@ -14,7 +14,7 @@
 
 #import <SPMacro/SPMacro.h>
 #import <SPFastPush/SPFastPush.h>
-#import <SPSafeData/SPSafeData.h>
+#import <SafeData/SPSafeData.h>
 
 #import "SPBlockDefine.h"
 #import "SPBaseVC.h"
