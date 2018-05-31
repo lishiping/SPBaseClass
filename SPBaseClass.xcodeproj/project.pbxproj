@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E86AC2F20BE97E900CD5B2C /* SPDashLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */; };
 		1E94824E208F608100B5F82C /* SPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E94824C208F608000B5F82C /* SPHUD.m */; };
 		1EA752FC2084889E005E612C /* SPAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752FB2084889E005E612C /* SPAlert.m */; };
 		3A1F115F96B5A72DAB05F31B /* libPods-SPBaseClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF1D968C3372D9EFDCD5AC7 /* libPods-SPBaseClass.a */; };
@@ -26,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		1BC7A97695C3CF7494976D9B /* Pods-SPBaseClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBaseClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass.debug.xcconfig"; sourceTree = "<group>"; };
+		1E86AC2D20BE97E900CD5B2C /* SPDashLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDashLineView.h; sourceTree = "<group>"; };
+		1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDashLineView.m; sourceTree = "<group>"; };
 		1E94824C208F608000B5F82C /* SPHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHUD.m; sourceTree = "<group>"; };
 		1E94824D208F608100B5F82C /* SPHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHUD.h; sourceTree = "<group>"; };
 		1E94824F208F63B300B5F82C /* SPBaseClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBaseClass.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 		E1D287F81F308D630000AC39 /* SPBaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				1E86AC2D20BE97E900CD5B2C /* SPDashLineView.h */,
+				1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */,
 				1E94824F208F63B300B5F82C /* SPBaseClass.h */,
 				1EA752FE2084893E005E612C /* SPBlockDefine.h */,
 				1EA752FA2084889E005E612C /* SPAlert.h */,
@@ -284,6 +289,7 @@
 				E1C92E4E1F381F510090BDBB /* BVC.m in Sources */,
 				E1D287E91F308B7F0000AC39 /* ViewController.m in Sources */,
 				E1D287E61F308B7F0000AC39 /* AppDelegate.m in Sources */,
+				1E86AC2F20BE97E900CD5B2C /* SPDashLineView.m in Sources */,
 				1E94824E208F608100B5F82C /* SPHUD.m in Sources */,
 				E1D287E31F308B7F0000AC39 /* main.m in Sources */,
 				E1C92E481F347F320090BDBB /* SPBaseTabBarController.m in Sources */,
