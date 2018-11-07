@@ -10,6 +10,7 @@
 		1E86AC2F20BE97E900CD5B2C /* SPDashLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */; };
 		1E94824E208F608100B5F82C /* SPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E94824C208F608000B5F82C /* SPHUD.m */; };
 		1EA752FC2084889E005E612C /* SPAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752FB2084889E005E612C /* SPAlert.m */; };
+		3377C87620EB2FB600F9576D /* SPLocalNotificationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3377C87420EB2FB500F9576D /* SPLocalNotificationUtil.m */; };
 		3A1F115F96B5A72DAB05F31B /* libPods-SPBaseClass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF1D968C3372D9EFDCD5AC7 /* libPods-SPBaseClass.a */; };
 		E192101F1F346E4F009555DB /* SPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E192101E1F346E4F009555DB /* SPBaseNavigationController.m */; };
 		E1C92E481F347F320090BDBB /* SPBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C92E471F347F320090BDBB /* SPBaseTabBarController.m */; };
@@ -35,6 +36,8 @@
 		1EA752FA2084889E005E612C /* SPAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlert.h; sourceTree = "<group>"; };
 		1EA752FB2084889E005E612C /* SPAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlert.m; sourceTree = "<group>"; };
 		1EA752FE2084893E005E612C /* SPBlockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPBlockDefine.h; sourceTree = "<group>"; };
+		3377C87420EB2FB500F9576D /* SPLocalNotificationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLocalNotificationUtil.m; sourceTree = "<group>"; };
+		3377C87520EB2FB600F9576D /* SPLocalNotificationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLocalNotificationUtil.h; sourceTree = "<group>"; };
 		8E3053870D19FD1D8B2CF09B /* Pods-SPBaseClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBaseClass.release.xcconfig"; path = "Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass.release.xcconfig"; sourceTree = "<group>"; };
 		E192101D1F346E4F009555DB /* SPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseNavigationController.h; sourceTree = "<group>"; };
 		E192101E1F346E4F009555DB /* SPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseNavigationController.m; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 		E1D287F81F308D630000AC39 /* SPBaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				3377C87520EB2FB600F9576D /* SPLocalNotificationUtil.h */,
+				3377C87420EB2FB500F9576D /* SPLocalNotificationUtil.m */,
 				1E86AC2D20BE97E900CD5B2C /* SPDashLineView.h */,
 				1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */,
 				1E94824F208F63B300B5F82C /* SPBaseClass.h */,
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C92E511F3821080090BDBB /* CVC.m in Sources */,
+				3377C87620EB2FB600F9576D /* SPLocalNotificationUtil.m in Sources */,
 				E1D287FB1F308DA40000AC39 /* SPBaseVC.m in Sources */,
 				E192101F1F346E4F009555DB /* SPBaseNavigationController.m in Sources */,
 				E1C92E4B1F381F3F0090BDBB /* AVC.m in Sources */,
