@@ -13,6 +13,14 @@ DEPENDENCIES:
   - SPCategory
   - SPFastPush
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+    - SafeData
+    - SPCategory
+    - SPFastPush
+    - SPMacro
+
 SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SafeData: d654eee95046a2c25ab67dec883977bb6699a83a
@@ -22,4 +30,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 30eb3c4bcf2596ade47026c899284aabc8174b43
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.7.5
