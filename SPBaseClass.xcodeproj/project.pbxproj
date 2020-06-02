@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E300B70246CF5C9000F7D19 /* SPBundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E300B6F246CF5C9000F7D19 /* SPBundleTools.m */; };
 		1E86AC2F20BE97E900CD5B2C /* SPDashLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */; };
 		1E94824E208F608100B5F82C /* SPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E94824C208F608000B5F82C /* SPHUD.m */; };
 		1EA752FC2084889E005E612C /* SPAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA752FB2084889E005E612C /* SPAlert.m */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1BC7A97695C3CF7494976D9B /* Pods-SPBaseClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPBaseClass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SPBaseClass/Pods-SPBaseClass.debug.xcconfig"; sourceTree = "<group>"; };
+		1E300B6E246CF5C9000F7D19 /* SPBundleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBundleTools.h; sourceTree = "<group>"; };
+		1E300B6F246CF5C9000F7D19 /* SPBundleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBundleTools.m; sourceTree = "<group>"; };
 		1E86AC2D20BE97E900CD5B2C /* SPDashLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDashLineView.h; sourceTree = "<group>"; };
 		1E86AC2E20BE97E900CD5B2C /* SPDashLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDashLineView.m; sourceTree = "<group>"; };
 		1E94824C208F608000B5F82C /* SPHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHUD.m; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 		E1D287F81F308D630000AC39 /* SPBaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				1E300B6E246CF5C9000F7D19 /* SPBundleTools.h */,
+				1E300B6F246CF5C9000F7D19 /* SPBundleTools.m */,
 				3377C87520EB2FB600F9576D /* SPLocalNotificationUtil.h */,
 				3377C87420EB2FB500F9576D /* SPLocalNotificationUtil.m */,
 				1E86AC2D20BE97E900CD5B2C /* SPDashLineView.h */,
@@ -207,6 +212,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,6 +290,7 @@
 				E1C92E4B1F381F3F0090BDBB /* AVC.m in Sources */,
 				E1C92E4E1F381F510090BDBB /* BVC.m in Sources */,
 				E1D287E91F308B7F0000AC39 /* ViewController.m in Sources */,
+				1E300B70246CF5C9000F7D19 /* SPBundleTools.m in Sources */,
 				E1D287E61F308B7F0000AC39 /* AppDelegate.m in Sources */,
 				1E86AC2F20BE97E900CD5B2C /* SPDashLineView.m in Sources */,
 				1E94824E208F608100B5F82C /* SPHUD.m in Sources */,
